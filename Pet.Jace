@@ -1,0 +1,35 @@
+public class Pet {
+
+```
+private String name;
+
+public Pet() {
+    setName("Pet Name");
+}
+
+public void setName(String name) {
+    this.name = name;
+}
+
+public String getName() {
+    return name;
+}
+
+public String toString() {
+    String output = "Pet information:\n";
+    output += "Name: " + name;
+    return output;
+}
+
+public static void main(String[] args) {
+
+    Pet p1 = new Pet();
+    System.out.println(p1.toString());
+
+    Pet p2 = new Pet();
+    p2.setName("Onsra");
+    System.out.println(p2.toString());
+}
+```
+
+}
